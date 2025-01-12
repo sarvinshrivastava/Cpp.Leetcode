@@ -2,12 +2,12 @@ class Solution {
 public:
     bool canBeValid(string s, string locked) {
         int len = s.size();
-        if (length % 2 == 1)
+        if (len % 2 == 1)
             return false;
 
         stack<int> opnb, unl;
 
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < len; i++) {
             if (locked[i] == '0') {
                 unl.push(i);
             } else if (s[i] == '(') {
