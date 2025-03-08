@@ -16,8 +16,7 @@ public:
     }
 
     int climbStairs(int n) {
-        vector <int> dp(n, -1);
-
+        vector<int> dp(n, -1);
         return reccurse(dp, n, 0);
     }
 };
