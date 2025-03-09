@@ -1,7 +1,3 @@
-i & j: 0 2
-a & b: 0 2 cnt: 3 flags: 0 0
-fruits[i] & baskets[a]: 3 6
-fruits[j] & baskets[b]: 1 7
-
------------------------------
-1
+0 0 0 0 
+0 4 5 0 
+0 3 1 0 
