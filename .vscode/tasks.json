@@ -7,7 +7,7 @@
         "command": "bash",
         "args": [
           "-c",
-          "cp \"${file}\" \"${workspaceFolder}/jspwTest.cpp\" && g++ \"${workspaceFolder}/jspwTest.cpp\" -o \"${workspaceFolder}/jspwTest\" && \"${workspaceFolder}/jspwTest\" < \"${workspaceFolder}/input.txt\" > \"${workspaceFolder}/output.txt\" && rm \"${workspaceFolder}/jspwTest\" \"${workspaceFolder}/jspwTest.cpp\""
+          "cp \"${file}\" \"${workspaceFolder}/jspwTest.cpp\" && g++ \"${workspaceFolder}/jspwTest.cpp\" -o \"${workspaceFolder}/jspwTest\" && \"${workspaceFolder}/jspwTest\" < \"${workspaceFolder}/I-O/input.txt\" > \"${workspaceFolder}/I-O/output.txt\" && rm \"${workspaceFolder}/jspwTest\" \"${workspaceFolder}/jspwTest.cpp\""
         ],
         "presentation": {
           "reveal": "never"
