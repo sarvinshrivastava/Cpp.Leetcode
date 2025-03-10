@@ -1,1 +1,2 @@
-4
+Result: 11381
+Time taken: 0.00541629 seconds
