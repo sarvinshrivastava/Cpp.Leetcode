@@ -1,2 +1,2 @@
-Result: 11381
-Time taken: 0.00541629 seconds
+Result: 44424996
+Time taken by function: 211 microseconds
