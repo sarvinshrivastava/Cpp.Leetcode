@@ -1,3 +1,9 @@
-Input vector: 7 3 9 5 
-Result: 5
+Time taken by function: 3 microseconds
+Result: 
+-1 -1 2 
+-1 0 1 
+
 Time taken by function: 0 microseconds
+Result: 
+0 0 0 
+
