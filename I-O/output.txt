@@ -1,9 +1,8 @@
-Time taken by function: 3 microseconds
-Result: 
--1 -1 2 
--1 0 1 
-
-Time taken by function: 0 microseconds
-Result: 
-0 0 0 
-
+i 0
+q 1
+e 2
+a 3
+o 4
+u 5
+q 6
+i 7
