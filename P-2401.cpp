@@ -7,27 +7,22 @@
 using namespace std;
 using namespace std::chrono;
 
-int longestNiceSubarray (vector<int>& nums) {
-    int cnt = 0, max = 0, combined = 0;
+int longestNiceSubarray(vector<int>& nums) {
+    int usedBits = 0, windowStart = 0, maxLength = 0;
 
-    combined = nums[0];
-    for (int i = 1; i < nums.size(); ++i) {
-        if (nums[i] & combined == 0) {
-            cnt++;
-            combined |= nums[i];
+    for (int windowEnd = 0; windowEnd < nums.size(); ++windowEnd) {
+        while ((usedBits & nums[windowEnd]) != 0) {
+            usedBits ^=
+                nums[windowStart];
+            windowStart++;
         }
-        else {
-            max = (max < cnt) ? cnt : max;
-            cnt = 0;
-            combined = nums[i];
-        }
+
+        usedBits |= nums[windowEnd];
+
+        maxLength = max(maxLength, windowEnd - windowStart + 1);
     }
 
-    // for (auto x : setBitCnt)
-    //     cout << x << " ";
-    cout << endl << "---------------------------------" << endl;
-    max = (max < cnt) ? cnt : max;
-    return max;
+    return maxLength;
 }
 
 int main () {
