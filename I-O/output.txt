@@ -1,2 +1,1 @@
-Result: 3
-Elapsed time: 4.4e-07 seconds
+2
