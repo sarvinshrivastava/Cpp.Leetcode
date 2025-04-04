@@ -95,7 +95,7 @@ int main()
 
     TreeNode *root = buildTree(nodes);
 
-    cout << lcaDeepestLeaves(root) -> val << endl;
+    cout << lcaDeepestLeaves(root)->val << endl;
 
     return 0;
 }
